@@ -1,0 +1,22 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: onv_java_27
+name: onv-java-27
+owner: user:account/shibam.dhar
+orgIdentifier: default
+projectIdentifier: sd2
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - group/sample-group
+metadata:
+  description: This entity ids for onv-java-27
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/Sdhar-ORG-Harness/onv-java-27
+  links:
+  - title: Website
+    url: http://my-sample-website.com
+  tags:
+  - my-sample
